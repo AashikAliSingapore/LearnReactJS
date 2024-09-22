@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Footer() {
-    const currentYear = new Date();
+function Footer({length}) {
+   
   return (
     <footer>
-        Copy Right &copy; {currentYear.getFullYear()}
+     {length} List {length===1?"item":"items"}
     </footer>
   )
 }
