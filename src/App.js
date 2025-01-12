@@ -41,7 +41,7 @@ const [items,setItems] = useState([
 
 ])
 
-const numbers = [-2,-1,2,3,4]
+const numbers = [-2,-1,2,3,4,5,6]
 const itemss = numbers.filter(n =>n>0).map((n) =>({numbers:n}))
 console.log(itemss)
 
